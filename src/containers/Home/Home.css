@@ -1,0 +1,75 @@
+      body {
+        background-color: #212121;
+        font-family: roboto;
+        color: #263238;
+      }
+
+      @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        .container {
+          width: 80%;
+        }
+      }
+
+      @media only screen and (min-width: 768px) {
+        .container {
+          width: 400px;
+        }
+      }
+
+      .container {
+        margin: 120px auto 120px;
+        background-color: #fff;
+        padding: 0 20px 20px;
+        border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.075);
+        -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.075);
+        -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.075);
+        text-align: center;
+      }
+
+      .avatar {
+        border-radius: 100px;
+        overflow: hidden;
+        height: 150px;
+        width: 150px;
+        position: relative;
+        margin: auto;
+        top: -60px;
+      }
+
+      .avatar img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius: 100px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      .button {
+        border: none;
+        color: white;
+        padding: 15px 15px;
+        width: 60%;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        background-color: #305b90;
+        border-color: #305b90;
+      }
+
+      a {
+        margin: 10px;
+        color: #305b90;
+        text-decoration: unset;
+      }
+
+      .containerDiv {
+        margin-top: -50px;
+      }

@@ -1,0 +1,28 @@
+{
+  "name": "Baris Ceviz",
+  "description": "Jedi Software Engineer at @Trendyol, Student at YTU, Microsoft Student Partner at @microsoft and more on Twitter and Medium",
+  "location": "Istanbul, Turkey",
+  "profileImageUrl": "https://avatars1.githubusercontent.com/u/6075637?s=460&v=4",
+  "socialLinks": [
+    {
+      "link": "https://github.com/peacecwz",
+      "title": "Baris Ceviz Github",
+      "type": "github"
+    },
+    {
+      "link": "https://twitter.com/peacecwz",
+      "title": "Baris Ceviz Twitter",
+      "type": "twitter"
+    },
+    {
+      "link": "https://medium.com/@peacecwz",
+      "title": "Baris Ceviz Medium",
+      "type": "medium"
+    },
+    {
+      "link": "https://instagram.com/peacecwz",
+      "title": "Baris Ceviz Instagram",
+      "type": "instagram"
+    }
+  ]
+}
