@@ -6,11 +6,11 @@ import SocialLink from "../../componentss/SocialLink";
 export default class Home extends React.Component {
     render() {
         return (
-            <div className="container">
-                <div className="avatar">
+            <div className="card">
+                <div className="card-avatar">
                     <img src={blog.profileImageUrl} alt={blog.name} height="150" width="150"/>
                 </div>
-                <div className="containerDiv">
+                <div className="card-detail">
                     <h1>{blog.name}</h1>
                     <p>{blog.description}</p>
                     <p>{blog.location}</p>
