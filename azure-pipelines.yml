@@ -10,8 +10,9 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- task: ArchiveFiles@2
+- task: Docker@2
   inputs:
-    rootFolderOrFile: '$(build.sourcesDirectory)'
-    includeRootFolder: false
-- task: PublishBuildArtifacts@1
+    containerRegistry: 'Peacecwz Registry'
+    repository: 'blog-app'
+    command: 'buildAndPush'
+    Dockerfile: '**/Dockerfile'
