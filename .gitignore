@@ -1,0 +1,7 @@
+.idea/
+/node_modules
+/.next/
+/build
+.DS_Store
+.env
+*.log
