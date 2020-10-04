@@ -1,11 +1,11 @@
-import React from 'react'
-import Container from '../../components/Container'
-import {Heading, Box, Stack, Text, PseudoBox, Flex, Image} from '@chakra-ui/core'
-import blogPostIndex from "../../data/blog"
-import Layout from '../../components/Layout'
-import StackSection from '../../components/StackSection'
+import React from 'react';
+import Container from '../../components/Container';
+import {Heading} from '@chakra-ui/core';
+import blogPostIndex from '../../data/blog';
+import Layout from '../../components/Layout';
+import StackSection from '../../components/StackSection';
 
-const Page = () => (
+const Posts = () => (
     <Layout title="Posts">
         <Container>
             <Heading mt={6}>
@@ -18,6 +18,6 @@ const Page = () => (
 
         <StackSection data={blogPostIndex.en}/>
     </Layout>
-)
+);
 
-export default Page
+export default Posts;

@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from '../components/Container'
-import {Heading, Box, Image, Link, Flex, Button} from '@chakra-ui/core'
+import {Heading, Link, Flex, Button} from '@chakra-ui/core'
 import ReactMarkdown from 'react-markdown/with-html'
 import Layout from '../components/Layout'
 
@@ -20,7 +20,7 @@ const bio = `
   I'm writing technical posts on Medium, contributing to open source projects on Github. I started streaming on my Youtube Channel. I would like to be contributor for software communities.
 `
 
-const Page = () => (
+const About = () => (
     <Layout title="About">
         <Container>
             <Flex alignItems="center" my={6}>
@@ -28,11 +28,7 @@ const Page = () => (
                     About Me
                 </Heading>
 
-                <Link
-                    target="_blank"
-                    href="https://linkedin.com/in/peacecwz"
-                    _hover={{textDecoration: "none"}}
-                >
+                <Link target="_blank" href="https://linkedin.com/in/peacecwz" _hover={{textDecoration: "none"}}>
                     <Button rightIcon="external-link">
                         Resume
                     </Button>
@@ -44,4 +40,4 @@ const Page = () => (
     </Layout>
 )
 
-export default Page
+export default About;

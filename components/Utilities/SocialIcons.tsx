@@ -26,7 +26,7 @@ const SocialIcons = (props: StackProps) => (
         <SocialIconLink Icon={RiSpotifyLine} link="spotify:user:peacecwz" mr={2}/>
         <SocialIconLink Icon={FiTwitter} link="https://twitter.com/peacecwz" mr={2}/>
         <SocialIconLink Icon={RiMediumLine} link="https://medium.com/@peacecwz" mr={2}/>
-        <SocialIconLink Icon={FiInstagram} link="https://instagram.com/peacecwz" mr={2}/>
+        <SocialIconLink Icon={FiInstagram} link="https://instagram.com/peacecwz.dev" mr={2}/>
         <SocialIconLink Icon={FiYoutube} link="https://youtube.com/c/BarisCeviz" mr={2}/>
         <SocialIconLink Icon={FiGithub} link="https://github.com/peacecwz" mx={2}/>
         <SocialIconLink Icon={FiLinkedin} link="https://www.linkedin.com/in/peacecwz" mx={2}/>

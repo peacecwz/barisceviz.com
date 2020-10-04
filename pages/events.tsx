@@ -1,11 +1,9 @@
-import React from 'react'
-import Container from '../components/Container'
-import {Heading, Box, Stack, Text, PseudoBox, Flex, Image} from '@chakra-ui/core'
-import blogPostIndex from "../data/blog"
-import Layout from '../components/Layout'
-import StackSection from '../components/StackSection'
+import React from 'react';
+import Container from '../components/Container';
+import {Heading} from '@chakra-ui/core';
+import Layout from '../components/Layout';
 
-const Page = () => (
+const Events = () => (
     <Layout title="Events">
         <Container>
             <Heading mt={6}>
@@ -16,6 +14,6 @@ const Page = () => (
             </Heading>
         </Container>
     </Layout>
-)
+);
 
-export default Page
+export default Events;

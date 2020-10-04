@@ -3,14 +3,15 @@ import Link from 'next/link'
 
 import {FrostedContainer} from './style'
 import Container from '../Container'
-import {useColorMode, Flex, Box, Text, Button, IconButton} from '@chakra-ui/core'
+import {useColorMode, Flex, Box, Button} from '@chakra-ui/core'
 import {FiMenu, FiX} from 'react-icons/fi'
 
 type NavProps = {
-    offset?: boolean
+    offset?: boolean;
+    siteName: string;
 }
 
-const Navigation = ({offset}: NavProps) => {
+const Navigation = ({offset, siteName}: NavProps) => {
     if (offset == null) {
         offset = true;
     }
@@ -33,7 +34,7 @@ const Navigation = ({offset}: NavProps) => {
                         <Flex align="center" mr={5}>
                             <Link href="/">
                                 <Button mx={2} variant="ghost" _hover={{backgroundColor: "rgba(85, 51, 255, .35)"}}>
-                                    Baris Ceviz
+                                    {siteName}
                                 </Button>
                             </Link>
                         </Flex>

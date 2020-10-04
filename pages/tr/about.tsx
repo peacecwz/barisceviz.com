@@ -1,8 +1,8 @@
-import React from 'react'
-import Container from '../../components/Container'
-import {Heading, Box, Image, Link, Flex, Button} from '@chakra-ui/core'
-import ReactMarkdown from 'react-markdown/with-html'
-import Layout from '../../components/Layout'
+import React from 'react';
+import Container from '../../components/Container';
+import {Heading, Link, Flex, Button} from '@chakra-ui/core';
+import ReactMarkdown from 'react-markdown/with-html';
+import Layout from '../../components/Layout';
 
 const bio = `
   👋 Merhaba, Ben Barış. Trendyol'da milyonlarca müşterimiz için ölçeklenebilir uygulamalar geliştiriyorum. Yıldız Teknik ve Anadolu Üniversitesi öğrencisiyim.  🤘
@@ -20,7 +20,7 @@ const bio = `
   Medium üzerinde teknik yazılar yazıyorum, Github üzerinde Open Source dünyasına katkılarda bulunmaktayım. Yakın zamanda Youtube üzerinde yayın yapmaya başladım. Topluluklar için içerik üreten ve öğrendiklerimizi öğretmeyi hedeflemekteyim.
 `
 
-const Page = () => (
+const About = () => (
     <Layout title="Hakkımda">
         <Container>
             <Flex alignItems="center" my={6}>
@@ -28,11 +28,7 @@ const Page = () => (
                     Hakkımda
                 </Heading>
 
-                <Link
-                    target="_blank"
-                    href="https://linkedin.com/in/peacecwz"
-                    _hover={{textDecoration: "none"}}
-                >
+                <Link target="_blank" href="https://linkedin.com/in/peacecwz" _hover={{textDecoration: "none"}}>
                     <Button rightIcon="external-link">
                         CV
                     </Button>
@@ -42,6 +38,6 @@ const Page = () => (
             <ReactMarkdown source={bio} renderers={{link: Link}} escapeHtml={false}/>
         </Container>
     </Layout>
-)
+);
 
-export default Page
+export default About;
